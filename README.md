@@ -1,6 +1,6 @@
-Hello, welcome to my github repository.
-Here, I will be implementing a Lane Detector using traditional methods like SIFT and Canny.
-I will also  be giving you a quick tutorial on cpp, as it is the most commonly used applucation in the industry due to its fast processing ability.
+Hello, welcome to my Github Repository
+In this project, I’ll be implementing a Lane Detection system using traditional computer vision techniques such as SIFT and Canny edge detection.
+Additionally, I’ll include a brief C++ tutorial, since C++ is one of the most widely used languages in the industry thanks to its speed and efficiency in real-time applications.
 
 1) What is CMake?
 CMake is a tool that generates build instructions for your compiler.
