@@ -1,6 +1,6 @@
-Hello, welcome to my github repository.
-Here, I will be implementing a Lane Detector using traditional methods like SIFT and Canny.
-I will also  be giving you a quick tutorial on cpp, as it is the most commonly used applucation in the industry due to its fast processing ability.
+Hello, welcome to my Github Repository
+In this project, I’ll be implementing a Lane Detection system using traditional computer vision techniques such as SIFT and Canny edge detection.
+Additionally, I’ll include a brief C++ tutorial, since C++ is one of the most widely used languages in the industry thanks to its speed and efficiency in real-time applications.
 
 1) What is CMake?
 CMake is a tool that generates build instructions for your compiler.
@@ -36,12 +36,3 @@ The proposed flow:
 9. Overlay lanes on original image
 
 We will elaborate on each method, how we construct it in the following sections. But for now, just make sure you understadn the basics of file management in cpp
-
-1) Read and decode file
-In order to read and decode the file, we use OpenCVs VideoCapture method. This method allows us to 
-Open a video file or image file sequence or a capturing device or a IP video stream for video capturing.
-One thing worth remembering is that a video is just a bunch fo images stitched together.  Which is why we need to define a Mat object. 
-We process the video frame by frame and pass each Mat obj to the frame. We keep doing this until either the video ends or until the user(you) clicks the esacpe button on your keyboard.
-The next step would be to define the ROI. Why you might ask? Because we dont want to detect all edges, just the ones relevant to us.
-
-
