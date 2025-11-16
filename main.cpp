@@ -5,4 +5,3 @@
 int main() {
     return process_video("/Users/majdkhalife/Desktop/Cpp Projects/LaneDetection/Dashcam.mov");
 }
-
